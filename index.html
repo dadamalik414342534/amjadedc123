@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App - PITP Sukkur IBA University</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Welcome Page -->
+<div class="container" id="welcome-page">
+    <h1>Welcome to the Quiz Amjad</h1>
+    <h3><strong>Course:</strong> PITP (People Information Technology Program)</h3>
+    <h3><strong>University:</strong> Sukkur IBA University</h3>
+    <h3><strong>Student Name:</strong> Amjad Ali Malik</h3>
+    <p class="prayer">
+        “May Allah bless the management and organizers of Sukkur IBA University for their tireless efforts, dedication, and commitment to empowering youth through quality IT education.”
+    </p>
+    <button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<!-- Quiz Page -->
+<div class="container" id="quiz-page" style="display:none;">
+    <h1>Quiz App</h1>
+    <h3>PITP - Sukkur IBA University</h3>
+    <p><strong>Student:</strong> Amjad Ali Malik</p>
+
+    <div id="quiz">
+        <div id="question" class="question"></div>
+        <div id="options" class="options"></div>
+        <div class="nav-buttons">
+            <button id="back-btn">Back</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <div id="result" class="result" style="display:none;"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
